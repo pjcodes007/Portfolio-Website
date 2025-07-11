@@ -1,24 +1,41 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import HTMLimg from '../icons/html-5-svgrepo-com.svg';
+import CSSimg from '../icons/css-3-svgrepo-com.svg';
+import JSimg from '../icons/js-svgrepo-com.svg';
+import Reactimg from '../icons/js-svgrepo-com.svg';
+import Tailwindimg from '../icons/tailwindcss-icon-svgrepo-com.svg';
+import Nodeimg from '../icons/node-js-svgrepo-com.svg';
+import Expressimg from '../icons/express-svgrepo-com.svg';
+import GitHubimg from '../icons/github-svgrepo-com.svg';
+import Mongoimg from '../icons/mongodb-svgrepo-com.svg';
+import Pythonimg from '../icons/python-svgrepo-com.svg';
+import TSimg from '../icons/typescript-svgrepo-com.svg';
+import Zustandimg from '../icons/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg';
+import Reduximg from '../icons/redux-logo-svgrepo-com.svg';
+import Shadcnimg from '../icons/shadcn.svg';
+import NPMimg from '../icons/download.png';
+import Mongooseimg from '../icons/Mongoose.js.svg';
 
 const skills = [
-  { name: "HTML", icon: "./src/icons/html-5-svgrepo-com.svg" },
-  { name: "CSS", icon: "./src/icons/css-3-svgrepo-com.svg" },
-  { name: "JS", icon: "./src/icons/js-svgrepo-com.svg" },
-  { name: "React", icon: "./src/icons/react-svgrepo-com.svg" },
-  { name: "Tailwind", icon: "./src/icons/tailwindcss-icon-svgrepo-com.svg" },
-  { name: "Node.js", icon: "./src/icons/node-js-svgrepo-com.svg" },
-  { name: "Express", icon: "./src/icons/express-svgrepo-com.svg" },
-  { name: "GitHub", icon: "./src/icons/github-svgrepo-com.svg" },
-  { name: "MongoDB", icon: "./src/icons/mongodb-svgrepo-com.svg" },
-  { name: "Python", icon: "./src/icons/python-svgrepo-com.svg" },
-  { name: "TypeScript", icon: "./src/icons/typescript-svgrepo-com.svg" },
-  { name: "Zustand", icon: "./src/icons/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg"},
-  { name: "Redux", icon: "./src/icons/redux-logo-svgrepo-com.svg" },
-  { name: "Shadcn", icon: "./src/icons/shadcn.svg" },
-  { name: "NPM", icon: "./src/icons/download.png" },
-  { name: "Mongoose", icon: "./src/icons/Mongoose.js.svg" }
+  { name: "HTML", icon: HTMLimg },
+  { name: "CSS", icon: CSSimg },
+  { name: "JS", icon: JSimg },
+  { name: "React", icon: Reactimg },
+  { name: "Tailwind", icon: Tailwindimg },
+  { name: "Node.js", icon: Nodeimg },
+  { name: "Express", icon: Expressimg },
+  { name: "GitHub", icon: GitHubimg },
+  { name: "MongoDB", icon: Mongoimg },
+  { name: "Python", icon: Pythonimg },
+  { name: "TypeScript", icon: TSimg },
+  { name: "Zustand", icon: Zustandimg },
+  { name: "Redux", icon: Reduximg },
+  { name: "Shadcn", icon: Shadcnimg },
+  { name: "NPM", icon: NPMimg },
+  { name: "Mongoose", icon: Mongooseimg }
 ];
+
 
 const getRandomPosition = () => ({
   top: `${Math.random() * 80}%`,
