@@ -22,15 +22,15 @@ import Ecomimg from '../game_images/image copy 6.png';
 const projects = [
   {
     name: "Portfolio Website",
-    image: "./src/components/game_images/image copy 5.png",
-    github: PortfolioImg,
+    image: PortfolioImg,
+    github: "https://github.com/pjcodes007/Portfolio-Website",
     description: "A personal portfolio website to showcase my skills and projects.",
     tech: ["React", "Tailwind", "Framer Motion"],
   },
   {
     name: "E-Commerce App",
     image: Ecomimg,
-    github: "https://github.com/yourname/ecommerce",
+    github: "https://github.com/pjcodes007/E-commerce-website/",
     description: "An online store app with product listings, cart, and checkout.",
     tech: ["MongoDB", "Express", "Node.js", "React"],
   },
