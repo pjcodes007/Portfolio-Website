@@ -16,17 +16,20 @@ import Shadcnimg from '../icons/shadcn.svg';
 import NPMimg from '../icons/download.png';
 import Mongooseimg from '../icons/Mongoose.js.svg';
 
+import PortfolioImg from '../game_images/image copy 5.png';
+import Ecomimg from '../game_images/image copy 6.png';
+
 const projects = [
   {
     name: "Portfolio Website",
     image: "./src/components/game_images/image copy 5.png",
-    github: "https://github.com/yourname/portfolio",
+    github: PortfolioImg,
     description: "A personal portfolio website to showcase my skills and projects.",
     tech: ["React", "Tailwind", "Framer Motion"],
   },
   {
     name: "E-Commerce App",
-    image: "./src/components/game_images/image copy 6.png",
+    image: Ecomimg,
     github: "https://github.com/yourname/ecommerce",
     description: "An online store app with product listings, cart, and checkout.",
     tech: ["MongoDB", "Express", "Node.js", "React"],
