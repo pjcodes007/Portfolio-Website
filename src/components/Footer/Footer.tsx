@@ -12,10 +12,10 @@ const Footer = () => {
           <p className="flex gap-2 items-center select-none">
             Email:{" "}
             <a
-              href="mailto:pranjalj967@gmail.com"
+              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtMjJsDQdPzpWNBmgtkQbZBnmLjZflMbcrzcLPWRWzDbpMcKNTvBFVVHNTVZmRPJWKVFbKJg"
               className="underline hover:text-purple-300 transition select-none"
             >
-              <FaEnvelope />
+              <FaEnvelope/>
             </a>
           </p>
           <p className="select-none">Location: India</p>
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="www.linkedin.com/in/praanjal-joshi-84406629b"
+            href="https://www.linkedin.com/in/praanjal-joshi-84406629b"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition"
