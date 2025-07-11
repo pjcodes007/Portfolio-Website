@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.text-strok {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+
+
+@keyframes fillText {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: #818CF8;
+  }
+}
+
+
+.animated-fill-0 {
+  animation: fillText 5s ease-in-out infinite;
+  animation-delay: 0s;
+  animation-fill-mode: backwards;
+}
+
+.animated-fill-1 {
+  animation: fillText 5s ease-in-out infinite;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+.animated-fill-2 {
+  animation: fillText 5s ease-in-out infinite;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
+}
+
+.animated-fill-3 {
+  animation: fillText 5s ease-in-out infinite;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+}
