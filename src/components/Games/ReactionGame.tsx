@@ -7,7 +7,7 @@ const ClickDotGame = () => {
   const [dotPosition, setDotPosition] = useState({ top: "50%", left: "50%" });
   const [startTime, setStartTime] = useState<number>(0);
   const [reactionTimes, setReactionTimes] = useState<number[]>([]);
-  const [waiting, setWaiting] = useState(false);
+  const [, setWaiting] = useState(false);
   const [round, setRound] = useState(1);
   const [message, setMessage] = useState("Get Ready...");
 
