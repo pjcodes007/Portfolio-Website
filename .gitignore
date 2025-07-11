@@ -22,7 +22,7 @@ dist/
 
 # System files
 Thumbs.db
-
+ 
 # Optional: if you use yarn or pnpm
 yarn.lock
 pnpm-lock.yaml
