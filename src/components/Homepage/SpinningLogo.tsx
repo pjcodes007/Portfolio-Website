@@ -10,7 +10,7 @@ const RotatingText = () => {
   return (
     <Text
       ref={ref}
-      font="/public/fonts/BitcountGridDouble-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" 
+      font="../../../../../public/fonts/BitcountGridDouble-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" 
       fontSize={3.58}
       color="white"
       anchorX="center"
