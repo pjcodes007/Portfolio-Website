@@ -15,6 +15,7 @@ import Reduximg from '../icons/redux-logo-svgrepo-com.svg';
 import Shadcnimg from '../icons/shadcn.svg';
 import NPMimg from '../icons/download.png';
 import Mongooseimg from '../icons/Mongoose.js.svg';
+import Vercelimng from '../icons/vercel.png'
 
 import PortfolioImg from '../game_images/image copy 5.png';
 import Ecomimg from '../game_images/image copy 6.png';
@@ -25,14 +26,14 @@ const projects = [
     image: PortfolioImg,
     github: "https://github.com/pjcodes007/Portfolio-Website",
     description: "A personal portfolio website to showcase my skills and projects.",
-    tech: ["React", "Tailwind", "Framer Motion"],
+    tech: ["React", "Tailwind", "Framer Motion","Vercel"],
   },
   {
     name: "E-Commerce App",
     image: Ecomimg,
     github: "https://github.com/pjcodes007/E-commerce-website/",
     description: "An online store app with product listings, cart, and checkout.",
-    tech: ["MongoDB", "Express", "Node.js", "React"],
+    tech: ["MongoDB", "Express", "Node.js", "React","Zustand"],
   },
 ];
 
@@ -54,7 +55,8 @@ const skills = [
   { name: "Redux", icon: Reduximg },
   { name: "Shadcn", icon: Shadcnimg },
   { name: "NPM", icon: NPMimg },
-  { name: "Mongoose", icon: Mongooseimg }
+  { name: "Mongoose", icon: Mongooseimg },
+  { name: "Vercel", icon:Vercelimng}
 ];
 
 const Project = () => {

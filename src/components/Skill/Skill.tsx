@@ -14,6 +14,7 @@ import Reduximg from '../icons/redux-logo-svgrepo-com.svg';
 import Shadcnimg from '../icons/shadcn.svg';
 import NPMimg from '../icons/download.png';
 import Mongooseimg from '../icons/Mongoose.js.svg';
+import Vercelimng from '../icons/vercel.png'
 
 const skills = [
   { name: "HTML", icon: HTMLimg },
@@ -31,7 +32,8 @@ const skills = [
   { name: "Redux", icon: Reduximg },
   { name: "Shadcn", icon: Shadcnimg },
   { name: "NPM", icon: NPMimg },
-  { name: "Mongoose", icon: Mongooseimg }
+  { name: "Mongoose", icon: Mongooseimg },
+  { name: "Vercel", icon: Vercelimng}
 ];
 
 
