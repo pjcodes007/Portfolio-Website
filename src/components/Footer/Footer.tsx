@@ -54,9 +54,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="text-white text-5xl absolute bottom-1 left-0 opacity-7 font-[monospace] font-extrabold select-none ">
-        Footer
-      </div>
     </footer>
   );
 };

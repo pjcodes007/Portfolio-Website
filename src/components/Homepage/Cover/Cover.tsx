@@ -27,11 +27,6 @@ const FirstPage = () => {
               Developer
             </p>
           </div>
-
-          {/* Watermark */}
-          <div className="text-white text-4xl sm:text-5xl md:text-6xl absolute bottom-4 left-4 opacity-5 font-mono font-extrabold pointer-events-none">
-            Home
-          </div>
         </div>
       </div>
     </>

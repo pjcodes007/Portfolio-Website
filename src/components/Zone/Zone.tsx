@@ -68,10 +68,6 @@ const GameZone = () => {
           </div>
         ))}
       </div>
-
-      <div className="text-white text-6xl absolute bottom-0 left-0 opacity-7 font-[monospace] font-extrabold select-none ">
-        Game Zone
-      </div>
     </section>
   );
 };

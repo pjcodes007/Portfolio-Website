@@ -49,10 +49,6 @@ console.log(developer.hireable());
           </div>
         </div>
 
-        {/* Watermark Text */}
-        <div className="absolute bottom-2 left-4 text-white text-6xl opacity-5 font-mono font-extrabold pointer-events-none">
-          About
-        </div>
       </div>
     </>
   );

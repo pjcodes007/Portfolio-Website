@@ -58,7 +58,6 @@ const Skill = () => {
             <span className="text-sm text-white lg:text-md xl:text-xl select-none">{skill.name}</span>
           </div>
         ))}
-       <div className="text-white text-6xl absolute bottom-0 left-0 opacity-7 font-[monospace] font-extrabold select-none ">Skills</div>
       </div>
     </div>
   );
