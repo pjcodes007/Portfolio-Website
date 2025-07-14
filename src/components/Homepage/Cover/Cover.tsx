@@ -10,19 +10,10 @@ const FirstPage = () => {
 
         <div className="min-h-screen w-full pt-14 relative z-40 flex flex-col items-center justify-center px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-10 items-center w-full max-w-6xl mx-auto">
+            <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-lg a select-none text-center sm:block">
+              Full Stack
+            </p>
             {/* Left: Full Stack */}
-            <div className="flex flex-col justify-center items-center gap-10 md:gap-10 lg:gap-12">
-              {["Full Stack", "Full Stack", "Full Stack", "Full Stack"].map(
-                (text, index) => (
-                  <p
-                    key={index}
-                    className={`text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-lg animated-fill-${index} select-none text-center`}
-                  >
-                    {text}
-                  </p>
-                )
-              )}
-            </div>
 
             {/* Center: Spinning Logo */}
             <div className="flex justify-center items-center relative h-[200px] sm:h-[250px] md:h-[300px] lg:h-[400px]">
@@ -32,20 +23,9 @@ const FirstPage = () => {
             </div>
 
             {/* Right: Developer */}
-            <div className="flex flex-col justify-center items-center gap-10 md:gap-10 lg:gap-12">
-              {["Developer", "Developer", "Developer", "Developer"].map(
-                (text, index) => (
-                  <p
-                    key={index}
-                    className={`text-4xl md:text-5xl lg:text-6xl font-bold animated-fill-${
-                      3 - index
-                    } select-none text-center`}
-                  >
-                    {text}
-                  </p>
-                )
-              )}
-            </div>
+            <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-lg a select-none text-center ">
+              Developer
+            </p>
           </div>
 
           {/* Watermark */}
